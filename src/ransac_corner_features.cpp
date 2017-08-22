@@ -1,3 +1,5 @@
+//Esta es una modificacion de Clayder
+
 #include <ros/ros.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <nav_msgs/Odometry.h>
@@ -26,7 +28,6 @@
 #include <pcl/sample_consensus/sac_model_line.h>
 #include <pcl/filters/extract_indices.h>
 
-#include <omp.h>
 #include <Eigen/Dense>
 #include <Eigen/Geometry> 
 
